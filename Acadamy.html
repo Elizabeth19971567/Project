@@ -9,13 +9,17 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
   
   <link rel="stylesheet" href="AcadamyStyle.css" type="text/css"> 
-   
+ 
+ </style>  
 </head>
 <body>
 <div class="container-fluid">
     <marquee class="mq1">ADMISSION OPEN</marquee>​
 </div>
+
+<!--nav bar-->
 <div class="container-fluid">
+<div class="topnav">  
 <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
     <ul class="navbar-nav">
       <li class="nav-item"><a class="nav-link" href="#">HOME</a></li>
@@ -28,7 +32,7 @@
           <li><a href="#">ORACLE</a></li>
           <li><a href="#">SQL</a></li>
         </ul>
-       <!--test-->
+       
       </li>
       <li class="nav-item"><a class="nav-link" href="#">ABOUT US</a></li>
       <li class="dropdown nav-item">
@@ -40,6 +44,9 @@
           </ul>        
 </nav>
 </div>
+</div>
+
+
 <div class="container-fluid">
     <img src="InstituteImage.jpg" class="institute">
     <div class="test">WELCOME TO FUTURE ACADEMY</div>
@@ -47,89 +54,56 @@
     <div class="test2"><span> 30+ </span>Branch all Over India &nbsp&nbsp <span>500000+</span>Student &nbsp&nbsp <span>70+</span>Teacher </div>
     <div class="test3"><input type="text" placeholder="Search.." name="search"></div>
   </div>
+  
 <br>
 <br>
 <br>
-<div class="container-fluid">
-<h2 class="port">Portfolio</h2>
-<h5 class="port">A Coursera Specialization is a series of courses that helps you master a skill. To begin, enroll in the Specialization directly, or review its courses and choose the one you'd like to start with. When you subscribe to a course that is part of a Specialization, you’re automatically subscribed to the full Specialization.</h5>
-<div class="flex-container1">    
-<img src="Java.jpg" class="pimg">
-<img src="networking.jpg" class="pimg">
-<img src="oracle.jpg" class="pimg">
-<img src="python.jpg" class="pimg">
-<img src="SQL.jpg" class="pimg">
-</div>
-</div>
+
+<!--Portfolio-->
  
+<div class="container-fluid"> 
+  <h2 class="port">Portfolio</h2>
+    <p class="port">A Coursera Specialization is a series of courses that helps you master a skill. To begin, enroll in the Specialization directly, or review its courses and choose the one you'd like to start with. When you subscribe to a course that is part of a Specialization, you’re automatically subscribed to the full Specialization.</p>
+        
+
+  <div class="flex-container1">  
+    <img src="Java.jpg" class="pimg">
+      <img src="networking.jpg" class="pimg">
+        <img src="oracle.jpg" class="pimg">
+         <img src="python.jpg" class="pimg">
+            <img src="SQL.jpg" class="pimg">
+   </div>
+</div>  
+
+
+<!--Team--> 
 <div class="container-fluid">  
 <h2 class="x">Team</h2>
   <marquee behaviour="alternate" scrollamount="20" class="mq2" > 
-  <div> 
-  <img src="Photo1.jpg" class="round" </img>
-  <i>Elizabeth David</i><br>
-  <i>"Education is the most powerful weapon which you can use to change the World " <br>
-    with this quote I welcome you all to Future Academy</i>
+   <div> 
+    <img src="Photo1.jpg" class="round" </img>
+     <i>Elizabeth David</i><br>
+      <i>"Education is the most powerful weapon which you can use to change the World " <br>
+        with this quote I welcome you all to Future Academy</i>
   </div>
  <br>
   
-  <div>
-  <img src="photo2.jpg" class="round"> 
-  <i>Pratik Gawande</i><br>
-  <i>Future Academy is one of the old, trusted and best training institute.</br> We have a best teachers and staff that provide a good knowledge and confidence regarding the course.</i>
-  </div>
-</marquee>
-</div> 
-
-<div class="container-fluid" >
-<h3 class="regtitle">Registration Form</h3>
-<form role="form" class="regform">
-<div class="form-group">
-<label>First Name </label>
-<input type="text" placeholder="Enter your first name"  class="form-control">
-</div>
-<div class="form-group">
-<label>Last Name </label>
-<input type="text" placeholder="Enter your last name" class="form-control">
-</div>
-<div class="form-group">
-<label>Contact No. </label>
-<input type="text" placeholder="Enter your contact number" class="form-control">
-</div> 
-<div class="form-group">
-<label>Education </label>
-<input type="text" placeholder="Enter your education details" class="form-control">
-</div> 
-<div class="form-group">
-<label>Percentage </label>
-<input type="text" placeholder="Enter your Percentage" class="form-control">
-</div> 
 <div>
-<button type="submit" class="btn btn-success">Submit</button>
-</div>
-</form>
+  <img src="photo2.jpg" class="round"> 
+   <i>Pratik Gawande</i><br>
+    <i>Future Academy is one of the old, trusted and best training institute.</br> We have a best teachers and staff that provide a good knowledge and confidence regarding the course.</i>
 </div>
 
+</marquee>
+</div>
 
-<div class="container-fluid">    
-<table class="table">  
-<tr>
-  <td>Address: </td>
-  <td>Sr no 17 , Siddharth Nagar Dhanori Pune 15 </td>
-</tr>
-<tr>
-<td>PINCODE:</td>
-<td>411015 </td>
-</tr>  
-<tr>
-  <td>Email : </td>
-  <td>elidavid1997@gmail.com</td>
-</tr> 
-</table>
-</div> 
+<!--Demonstration-->
 
 <h3 class="Demo">Demonstration</h3>
-<div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+<div class="row">
+  <div class="col-md-4 mt-md-0 mt-4">
+
+ <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
   <div class="carousel-inner">
     <div class="carousel-item active">
       <img class="d-block w-100  " src="Event-technology.jpg" height="300" >
@@ -151,21 +125,102 @@
     </div>
   </div>
 </div>
-<br><br>
-<div>
 
-<footer class="page-footer font-small blue pt-4" style="background-color:#f2f2f3">
-<div class="container-fluid text-center text-md-left"> 
-<div class="row">     
-<div class="col-md-6 mt-md-0 mt-3">
-<h5 class="text-uppercase">FUTURE ACADEMY</h5>
-<p>Sr no 17 Siddharth Nagar Dhanori Pune 15.</p>
+  </div>
+
+ <!-- Grid column -->
+
+ <hr class="clearfix w-100 d-md-none pb-3">
+ 
+ <!-- Grid column -->
+ <div class="col-md-4 mb-md-0 mb-4">
+
+<!--form-->
+ 
+ <h3 class="regtitle">Registration Form</h3>
+  <form role="form" class="regform">
+   <div class="form-group">
+    <label>First Name </label>
+     <input type="text" placeholder="Enter your first name"  class="form-control">
+   </div>
+
+   <div class="form-group">
+    <label>Last Name </label>
+     <input type="text" placeholder="Enter your last name" class="form-control">
+   </div>
+
+   <div class="form-group">
+    <label>Contact No. </label>
+     <input type="text" placeholder="Enter your contact number" class="form-control">
+   </div> 
+
+   <div class="form-group">
+    <label>Education </label>
+     <input type="text" placeholder="Enter your education details" class="form-control">
+   </div> 
+
+   <div class="form-group">
+    <label>Percentage </label>
+     <input type="text" placeholder="Enter your Percentage" class="form-control">
+   </div> 
+
+  <div>
+   <button type="submit" class="btn btn-success">Submit</button>
+  </div>
+</form>
+</div>
+
+<!-- Grid column -->
+
+
+
+<!--table-->
+<!-- Grid column -->
+<div class="col-md-4 mb-md-0 mb-4">
+
+  <table class="table">  
+   <tr>
+    <td>Address: </td>
+    <td>Sr no 17 , Siddharth Nagar Dhanori Pune 15 </td>
+  </tr>
+
+  <tr>
+   <td>PINCODE:</td>
+   <td>411015 </td>
+  </tr>  
+
+  <tr>
+    <td>Email : </td>
+    <td>elidavid1997@gmail.com</td>
+ </tr> 
+ </table>
+
 
 </div>
+<!-- Grid column -->
+
+</div>
+<!-- Grid row -->
+
+<br><br>
+
+<!--footer-->
+
+<div>
+ <footer class="page-footer font-small blue pt-4" style="background-color:#f2f2f3">
+  <div class="container-fluid text-center text-md-left"> 
+   <div class="row">     
+   <div class="col-md-6 mt-md-0 mt-3">
+    <h5 class="text-uppercase">FUTURE ACADEMY</h5>
+     <p>Sr no 17 Siddharth Nagar Dhanori Pune 15.</p>
+  </div>
+   
      
 
-<hr class="clearfix w-100 d-md-none pb-3">     
-<div class="col-md-3 mb-md-0 mb-3">     
+<hr class="clearfix w-100 d-md-none pb-3"> 
+
+<div class="col-md-3 mb-md-0 mb-3">  
+
 <h5 class="text-uppercase">Links</h5>
 
 <ul class="list-unstyled">
@@ -211,7 +266,7 @@
      www.futureacademy.com</a>
   </div>
   
-
 </footer> 
+</div>
 </body>
 </html>            
