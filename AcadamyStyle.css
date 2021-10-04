@@ -127,10 +127,9 @@
     width:250px;
 
  }
- .flex-container1
+ .flex-container
  {
  display: flex;
- height:300px;
  flex-direction: row;
  flex-flow: wrap;
  justify-content: space-between;
