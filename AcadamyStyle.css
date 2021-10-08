@@ -1,172 +1,232 @@
+/* google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Lobster&family=Patua+One&family=Sniglet&display=swap');
 
-
-@media screen and (max-width: 600px) {
-.topnav a {
-  float: none;
-  width: 100%;
-}
-}
-
-@media screen and (min-width: 601px) {
-    div.test {
-      font-size: 50px;
-    }
-  }
-
-
-@media screen and (min-width: 601px) {
-    div.test1 {
-        font-size: 25px;
-    }
-  }
-
-@media screen and (min-width: 601px) {
-    div.test2{
-        font-size: 20px;
-    }
-  }
-
-  
-
-
-
-.dimg
+*
 {
-    height:25px;
-     width:25px;
+box-sizing: border-box;
 }
- 
- .mq1
- {
-     color:#630a97;
-     font-size: 50px;
-     font-style: italic;
-     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
- }
- 
- .institute
- {
- width: 100%;
- height: 800;
- max-width: 100%;
- }
- .test
- {
-     position: absolute;
-      top: 350px;
-      left: 100px;
-      color: yellow;
 
- }
- .test1
- {   position: absolute;
-     color:#f4ae1f;
-     top: 500px;
-     left: 100px;
-     
- }
- .test2
- { position: absolute;    
-    top: 550px;
-    left: 100px;
+header,
+section{
 
- }
- .test3
- {
-    position: absolute;    
-    top: 650px;
-    left: 200px;
- }
+    overflow-x: hidden;
+}
 
- .photo2
+:root
+{
+--Snigle-font:"Sniglet",cursive;
+--Rubik: "Rubik",cursive;
+--Patua:"Patua One",cursive;
+--Lobster:"Lobster",cursive;
+--light-black:#2e2c2caf;
+--bggradient:linear-gradient( to bottom,#dd2476,#ff512f);
+--light-gray:rgba(255,255,255,0);
+
+}
+header a
+{
+    font-family:var(--Snigle-font);
+    font-size: 0.9em;
+    color: whitesmoke;
+}
+header
+{
+    background: #dd2476;
+    background: var(--bggradient);
+}
+.dropdown-content
+{
+    display: none;
+    position: absolute;
+    background: white;
+    min-width: 160px;
+    box-shadow: 0px 2px 15px 0px rgba(0, 0, 0, 0);
+    z-index: 1;
+}
+.test
+{
+height: 620px;
+overflow-y: hidden;
+
+}
+
+.dropdown-content a
+{
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+
+}
+
+.dropdown-content a:hover
+{
+    background: #ddd;
+
+}
+
+.dropdown:hover .dropdown-content
+{
+    display: block;
+}
+
+header .nav-item:last-child
+{
+    padding-right: 10.5em; 
+}
+
+header .nav-item
+{
+    padding: 0.9em;
+}
+
+header .navbar-brand{
+    padding-left: 8rem;
+}
+
+header .row .col-md-7
+{
+    padding: 22vmin 1vmin;
+    padding-bottom: 35vmin;
+    font-family:var(--Patua);
+    color: white;
+}
+
+header .container .col-md-7 h6
+{
+    padding: 1vmin;
+    letter-spacing: 3px;
+}
+header .container .col-md-7 
+{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+header .form-inline
+{
+    padding-left: 9rem;
+}
+
+/* section 1*/
+
+.section-1
+{
+ padding:20vmin 0;
+}
+
+.section-1 .row .col-md-6 .pray img
+{
+opacity: 0.8;
+width: 80%;
+border-radius: 2em;
+}
+
+.section-1 .row .col-md-6:last-child
+{
+    position: relative;
+}
+
+.section-1 .row .col-md-6 .panel
+{
+    position: absolute;
+    top: 7vmin;
+    left: -17vmin;
+    background: white;
+    border-radius: 3px;
+    text-align: left;
+    padding: 10vmin 5vmin 4vmin 10vmin;
+    box-shadow: 0px 25px 40px rgba(0, 0, 0, 0.2);
+
+}
+
+/* section 2*/
+
+.cover
+{
+    width: 100%;
+    height: 55vmin;
+    background:url(life.jpg);
+}
+
+.cover .content
+{
+    background: rgba(0, 0, 0, 0);
+    padding-top: 19vmin;
+}
+
+.cover .content >h1
+{
+font-family: var(--Lobster);
+font-size: 6vmin;
+color: whitesmoke;
+}
+
+.numbers .rect
+{
+position: relative;
+z-index: 1;
+background: white;
+width: 17rem;
+height: 11rem;
+padding-top: 3.5vmin;
+margin: 1rem;
+margin-top: -15vmin;
+border-radius: 0.5em;
+box-shadow: 1px 2px 48px 0px rgba(255, 0,0, 0.34);
+color: tomato;
+}
+
+.purchase>h1
+{
+    padding-top: 10vmin;
+    padding-bottom: 0.1vmin;
+    font-family: var(--Lobster);
+}
+.purchase>p
+{
+    padding-bottom: 0.1vmin;
+    font-family: var(--Snigle-font);
+}
+.purchase .cards .card
+{
+    margin: 3vmin;
+}
+
+.cards .title
+{
+    background: rgba(208, 241, 241, 0.3);
+}
+
+.photo2
  {
    height:240px;
  }
- span
- {
-     color: red;
- }
- .regform
- {
-  margin-top: 40px;
-  margin-left: 20px;
-  margin-right: 80px;
- 
- }
- .regtitle
-{ 
-    color: blue;
-    margin-top:180px;
-   
-   
-    
-}
- .x
- {  margin-top: 10px;
-    text-align: center;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    color: lime;
-    
- }
- .port
- {
-     text-align: center;
-     font-family:Georgia, 'Times New Roman', Times, serif;
-     
- }
- .p
- {
-     text-align: center;
-     font-family:Georgia, 'Times New Roman', Times, serif;
-    color: palevioletred;
- }
- .pimg
- { 
-   box-shadow: 4px 4px 4px 5px gray;
-    height:200px ;
-    width:250px;
-
- }
- .flex-container
- {
- display: flex;
- flex-direction: row;
- flex-flow: wrap;
- justify-content: space-between;
- }
- 
-.card
- {
-   border-color: purple;
- }
-
-.table
-{    
- margin-top: 250px;
- height: 450px;
- width: 400px;
- background-color: lightgray;
-
-}
-.demo
-{
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    color: plum;
-    position: absolute;
-    top: 2250px;
-    left: 15px;
-    
-}
-
-.carousel-inner {
-    width: 450px;
-    height: 60%;
-    margin-left: 15px;
-    margin-top: 300px;
+.carousel-inner  {
+    width: 100%;
+    height: 100%;
   }
-.container-fluid-lg
-{
- margin-left: 20px;
- margin-right: 20px;
 
-}
+
+ .text
+ {
+     color: blueviolet; 
+    
+ }
+
+ .title
+ {
+
+    text-align: center;
+    font-family: var(--Lobster);
+
+ }
+ .center_div
+ {  
+        margin: 0 auto;
+        width:60% ;
+    
+ }
+ footer
+ {  margin-top: 5vmin;
+     background:darkslategray;
+     overflow-x: hidden;
+ }
