@@ -46,7 +46,7 @@ header
 .test
 {
 height: 620px;
-overflow-y: hidden;
+
 
 }
 
@@ -110,7 +110,8 @@ header .form-inline
 
 .section-1
 {
- padding:20vmin 0;
+ padding:20vmin ;
+ 
 }
 
 .section-1 .row .col-md-6 .pray img
@@ -188,7 +189,7 @@ color: tomato;
 }
 .purchase .cards .card
 {
-    margin: 3vmin;
+    margin: 4vmin;
 }
 
 .cards .title
@@ -203,30 +204,103 @@ color: tomato;
 .carousel-inner  {
     width: 100%;
     height: 100%;
+    box-shadow: 10px 10px 5px  lightgray;
   }
-
 
  .text
  {
-     color: blueviolet; 
-    
+     color: blueviolet;   
  }
 
  .title
  {
-
     text-align: center;
     font-family: var(--Lobster);
-
  }
  .center_div
  {  
-        margin: 0 auto;
-        width:60% ;
-    
+        margin-left: 25vmin;
+        width:50% ;  
  }
+
  footer
  {  margin-top: 5vmin;
-     background:darkslategray;
-     overflow-x: hidden;
+    background:darkslategray;
+    overflow-x: hidden;
  }
+ #panel, #flip {
+    padding: 5px;
+    text-align: center;
+    background-color: #e5eecc;
+    border: solid 1px #c3c3c3;
+    width: 90%;
+  }
+
+  #panel {
+    padding: 50px;
+    display: none;
+  }
+
+  .right_div
+  {
+    width: 40%;
+    height: 40%;
+   margin-top: 3vmin; 
+   margin-right:14vmin; 
+  }
+
+
+  .content-before
+{
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+    text-align: center;
+   
+}
+.content-box1
+{
+    width: 200px;
+    height: 60px;
+    border-radius: 6px;
+    background-color: blue;
+    padding: 15px;
+    margin-left: 14vmin;
+    margin-bottom: 3vmin;
+}
+.content-box2
+{
+    width: 200px;
+    height: 60px;
+    border-radius: 6px;
+    background-color:blue;
+    margin-left: 14vmin;
+    margin-bottom: 3vmin;
+  
+    
+}
+.content-box3
+{
+    width: 200px;
+    height: 60px;
+    border-radius: 6px;
+    background-color:blue;
+    margin-left: 14vmin;
+    margin-bottom: 3vmin;
+   
+    
+}
+.content-after
+{
+ display: none;
+ font-size: 14px;
+ font-family: Arial, Helvetica, sans-serif;
+ color: #fff;
+ text-align: left;
+ line-height: 16px;
+ opacity: 0;
+ text-align: center;
+}
+
+
+ 
